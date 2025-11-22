@@ -26,12 +26,12 @@ const addVideo = async (req, res) => {
         status: "success",
         message:" Video added successfully!",
         data:{
-            link:"video_ID="+createdVideo._id,
+            link:"https://kalaxhunter.vercel.app/en/video?id="+createdVideo._id,
             title: title,
             title_si: title_lk,
             video_link: video,
             ads_link: ads,
-        }
+        },
     });
 };
 
