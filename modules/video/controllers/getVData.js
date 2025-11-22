@@ -22,6 +22,7 @@ const getvideoData = async (req, res) => {
     res.status(200).json({
         status: "success",
         data: getvideoData,
+        link:"https://kalaxhunter.vercel.app/en/video?id="+getvideoData._id,
     });
 };
 
